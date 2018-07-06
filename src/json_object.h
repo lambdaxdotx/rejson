@@ -28,6 +28,7 @@
 #include "object.h"
 #include "rmstrndup.h"
 #include "redismodule.h"
+#include <limits.h>
 
 #define JSONOBJECT_OK 0
 #define JSONOBJECT_ERROR 1
