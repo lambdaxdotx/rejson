@@ -24,6 +24,11 @@
 #include "redismodule.h"
 #include "rmstrndup.h"
 
+#ifdef TIS_INTERPRETER
+#define MIN(a,b) (((a)<(b))?(a):(b))
+#define MAX(a,b) (((a)>(b))?(a):(b))
+#endif
+
 /* The type of a path node */
 typedef enum {
     NT_ROOT = 0,
