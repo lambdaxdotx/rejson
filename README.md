@@ -40,3 +40,7 @@ ReJSON is made possible only because of the existance of these amazing open sour
 ## License
 
 AGPLv3 - see [LICENSE](LICENSE)
+
+## [WIP] Source Code Analysis
+
+By means of TrustInSoft Analyzer. See respective branch.
